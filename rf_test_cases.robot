@@ -1,7 +1,6 @@
 *** Settings ***
 Library  OperatingSystem
 Library  Process
-Suite Teardown  Close graphs
 *** Variables ***
 
 
