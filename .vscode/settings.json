@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "c:\\Users\\oliver.uhlar\\Desktop\\Projects\\plotly_graphs\\venv\\Scripts\\python.exe"
+    "python.pythonPath": "c:\\Users\\oliver.uhlar\\Desktop\\Projects\\plotly_graphs\\venv\\Scripts\\python.exe",
+    "git.ignoreLimitWarning": true
 }
