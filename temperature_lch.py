@@ -17,7 +17,7 @@ y_low = [-6.7,-5.2,-1.5,2.4,7.2,10.1,11.5,11.1,None,3.4,-0.8,-4.6]
 y_avg = [-2.9,-0.8,3.5,8.7,14.0,16.9,18.5,18.0,13.5,8.2,2.7,-1.4]
 
 fig = go.Figure()
-fig.add_trace(go.Scatter(x=yaml_data['months'], y=y_low,name='Min Temp',connectgaps=False))
+fig.add_trace(go.Scatter(x=yaml_data['months'], y=y_low,name='Min Temp',connectgaps=True))
 fig.add_trace(go.Scatter(x=x_data, y=yaml_data['max'], name='Max Temp', ))
 
 
@@ -29,4 +29,4 @@ fig.update_layout(title='Maximum, Average and minimum Temperatures in Banska Bys
                    yaxis_title='Temperature (degrees C°)',
                    modebar=dict(color='cyan'))
 fig.update_traces(dx=10.0,dy=10.0)
-fig.show()
+fig.write_html("temp_lch.html")
