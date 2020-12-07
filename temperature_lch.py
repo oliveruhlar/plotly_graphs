@@ -29,4 +29,4 @@ fig.update_layout(title='Maximum, Average and minimum Temperatures in Banska Bys
                    yaxis_title='Temperature (degrees C°)',
                    modebar=dict(color='cyan'))
 fig.update_traces(dx=10.0,dy=10.0)
-fig.write_html("temp_lch.html")
+fig.show()
